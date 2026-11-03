@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="wrap pagina libro-ficha">
+  <div class="libro-grid">
+    <div class="portada {% unless page.portada %}portada-vacia{% endunless %}">
+      {% if page.portada %}<img src="{{ page.portada | relative_url }}" alt="Portada de {{ page.title }}">{% else %}<span>{{ page.title }}</span>{% endif %}
+    </div>
+    <div>
+      <p class="antetitulo">{{ page.tema }}{% if page.anio %} · {{ page.anio }}{% endif %}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="meta">{{ page.ediciones }}</p>
+      <div class="prosa">{{ content }}</div>
+      <p><a class="volver" href="{{ '/libros/' | relative_url }}">← Todos los libros</a></p>
+    </div>
+  </div>
+</article>

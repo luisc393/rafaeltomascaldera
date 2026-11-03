@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <meta name="theme-color" content="#1d2a3a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+{%- assign url = page.url -%}
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="marca" href="{{ '/' | relative_url }}">
+        <span class="marca-nombre">Rafael Tomás Caldera</span>
+        <span class="marca-tag">{{ site.tagline }}</span>
+      </a>
+      <nav class="nav" aria-label="Secciones">
+        <a href="{{ '/biografia/' | relative_url }}" {% if url contains '/biografia/' %}class="activo"{% endif %}>Biografía</a>
+        <a href="{{ '/libros/' | relative_url }}" {% if url contains '/libros/' %}class="activo"{% endif %}>Libros</a>
+        <a href="{{ '/ensayos/' | relative_url }}" {% if url contains '/ensayos/' %}class="activo"{% endif %}>Ensayos</a>
+        <a href="{{ '/discursos/' | relative_url }}" {% if url contains '/discursos/' %}class="activo"{% endif %}>Discursos</a>
+        <a href="{{ '/prensa/' | relative_url }}" {% if url contains '/prensa/' %}class="activo"{% endif %}>Prensa</a>
+        <a href="{{ '/contacto/' | relative_url }}" {% if url contains '/contacto/' %}class="activo"{% endif %}>Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-nombre">Rafael Tomás Caldera</p>
+        <p>Profesor titular de Filosofía de la Universidad Simón Bolívar. Individuo de número de la Academia Venezolana de la Lengua. Miembro de la Academia Pontificia de Santo Tomás de Aquino.</p>
+      </div>
+      <div>
+        <p class="footer-titulo">La obra</p>
+        <ul>
+          <li><a href="{{ '/libros/' | relative_url }}">Libros</a></li>
+          <li><a href="{{ '/ensayos/' | relative_url }}">Ensayos y artículos</a></li>
+          <li><a href="{{ '/discursos/' | relative_url }}">Discursos y conferencias</a></li>
+          <li><a href="{{ '/prensa/' | relative_url }}">Entrevistas y prensa</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-titulo">Enlaces</p>
+        <ul>
+          <li><a href="https://rafaelcaldera.com" rel="noopener">Rafael Caldera · sitio oficial</a></li>
+          <li><a href="https://avelengua.org.ve/cms/individuos-de-numero/dr-rafael-tomas-caldera/" rel="noopener">Academia Venezolana de la Lengua</a></li>
+          <li><a href="https://revistasic.org/author/rcaldera/" rel="noopener">Sus artículos en Revista SIC</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-base">© {{ site.time | date: "%Y" }} Rafael Tomás Caldera</div>
+  </footer>
+</body>
+</html>

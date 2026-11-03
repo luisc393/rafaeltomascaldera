@@ -1,0 +1,23 @@
+title: Rafael Tomás Caldera
+tagline: Filósofo, ensayista y profesor universitario
+description: Sitio dedicado a la vida y la obra de Rafael Tomás Caldera, filósofo venezolano, profesor de la Universidad Simón Bolívar y de la Universidad Monteávila e individuo de número de la Academia Venezolana de la Lengua.
+url: https://rafaeltomascaldera.com
+lang: es
+timezone: America/Caracas
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+collections:
+  libros:
+    output: true
+    permalink: /libros/:name/
+  textos:
+    output: false
+defaults:
+  - scope: { type: libros }
+    values: { layout: libro }
+  - scope: { path: "" }
+    values: { layout: page }
+exclude: [README.md, CLAUDE.md]

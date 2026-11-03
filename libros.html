@@ -1,0 +1,41 @@
+---
+permalink: /libros/
+title: Libros
+antetitulo: La obra
+entradilla: Catálogo de sus libros, del más reciente al más antiguo. Cada ficha recoge las ediciones conocidas.
+---
+{% assign temas = site.libros | map: "tema" | uniq | sort %}
+<p class="filtros" role="group" aria-label="Filtrar por tema">
+  <button type="button" class="filtro activo" data-tema="">Todos</button>
+  {% for t in temas %}<button type="button" class="filtro" data-tema="{{ t }}">{{ t }}</button>{% endfor %}
+</p>
+<div class="libros-grid" id="libros">
+  {% assign con_anio = site.libros | where_exp: "l", "l.anio != nil" | sort: "anio" | reverse %}
+  {% assign sin_anio = site.libros | where_exp: "l", "l.anio == nil" %}
+  {% assign todos = con_anio | concat: sin_anio %}
+  {% for l in todos %}
+  <a class="libro-card" href="{{ l.url | relative_url }}" data-tema="{{ l.tema }}">
+    <div class="portada {% unless l.portada %}portada-vacia{% endunless %}">{% if l.portada %}<img src="{{ l.portada | relative_url }}" alt="">{% else %}<span>{{ l.title }}</span>{% endif %}</div>
+    <p class="libro-titulo">{{ l.title }}</p>
+    <p class="meta">{% if l.anio %}{{ l.anio }} · {% endif %}{{ l.tema }}</p>
+  </a>
+  {% endfor %}
+</div>
+<h2>Obras de Rafael Caldera preparadas por él</h2>
+<ul>
+  <li><em>Ideario. La democracia cristiana en América Latina</em> (Barcelona, Ariel, 1970). Selección, introducción y comentarios.</li>
+  <li><em>Temas de sociología venezolana</em> (Caracas, Tiempo Nuevo, 1973). Selección y notas, con Mireya Caldera Pietri.</li>
+  <li><em>Frente a Chávez</em> (Biblioteca Rafael Caldera, 2015). Prólogo.</li>
+</ul>
+<script>
+  document.querySelectorAll('.filtro').forEach(function (b) {
+    b.addEventListener('click', function () {
+      document.querySelectorAll('.filtro').forEach(function (x) { x.classList.remove('activo'); });
+      b.classList.add('activo');
+      var t = b.dataset.tema;
+      document.querySelectorAll('#libros .libro-card').forEach(function (c) {
+        c.hidden = t && c.dataset.tema !== t;
+      });
+    });
+  });
+</script>

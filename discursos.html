@@ -1,0 +1,9 @@
+---
+permalink: /discursos/
+title: Discursos y conferencias
+antetitulo: La obra
+entradilla: Discursos académicos, lecciones y conferencias.
+---
+<ul class="lista-textos">
+{% assign a = site.textos | where: "tipo", "discurso" | sort: "date" | reverse %}{% for t in a %}{% include texto.html t=t %}{% endfor %}
+</ul>

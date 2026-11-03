@@ -1,0 +1,9 @@
+---
+permalink: /prensa/
+title: Entrevistas y prensa
+antetitulo: Sobre su obra
+entradilla: Entrevistas, reseñas y estudios sobre su pensamiento.
+---
+<ul class="lista-textos">
+{% assign a = site.textos | where: "tipo", "entrevista" | sort: "date" | reverse %}{% for t in a %}{% include texto.html t=t %}{% endfor %}
+</ul>

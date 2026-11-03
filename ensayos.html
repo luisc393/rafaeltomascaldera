@@ -1,0 +1,14 @@
+---
+permalink: /ensayos/
+title: Ensayos y artículos
+antetitulo: La obra
+entradilla: Sus artículos de opinión y sus trabajos académicos. Los enlaces llevan a la publicación original.
+---
+<h2>Artículos</h2>
+<ul class="lista-textos">
+{% assign a = site.textos | where: "tipo", "articulo" | sort: "date" | reverse %}{% for t in a %}{% include texto.html t=t %}{% endfor %}
+</ul>
+<h2>Trabajos académicos</h2>
+<ul class="lista-textos">
+{% assign a = site.textos | where: "tipo", "academico" | sort: "date" | reverse %}{% for t in a %}{% include texto.html t=t %}{% endfor %}
+</ul>

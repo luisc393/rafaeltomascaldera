@@ -1,0 +1,4 @@
+<li class="texto">
+  <a href="{{ include.t.enlace }}" rel="noopener" target="_blank">{{ include.t.title }}</a>
+  <span class="meta">{{ include.t.fuente }} · {% if include.t.tipo == 'articulo' %}{% include fecha.html d=include.t.date %}{% else %}{% include fecha.html d=include.t.date solo_anio=true %}{% endif %}</span>
+</li>

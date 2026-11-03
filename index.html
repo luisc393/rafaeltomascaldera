@@ -1,0 +1,55 @@
+---
+layout: default
+title: Rafael Tomás Caldera
+---
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="antetitulo">Filosofía · Educación · Cultura venezolana</p>
+      <h1>Pensar la verdad, el amor y la vida en común</h1>
+      <p class="entradilla">Rafael Tomás Caldera (Caracas, 1945) es filósofo, ensayista y profesor universitario. Ha formado a varias generaciones de estudiantes venezolanos en la Universidad Simón Bolívar y la Universidad Monteávila, y es autor de más de veinte libros sobre el conocimiento, el amor, la educación y nuestra cultura.</p>
+      <p class="acciones"><a class="boton" href="{{ '/libros/' | relative_url }}">Conocer su obra</a> <a class="boton boton-sec" href="{{ '/biografia/' | relative_url }}">Biografía</a></p>
+    </div>
+    <figure class="retrato">
+      <div class="retrato-vacio" aria-hidden="true">RTC</div>
+      <figcaption>Retrato por incorporar</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="cita">
+  <div class="wrap">
+    <blockquote>«Vale la pena aportar reflexiones que ayuden a pensar los problemas.»</blockquote>
+    <p class="meta">Entrevista en Revista SIC, 2021</p>
+  </div>
+</section>
+
+<section class="wrap bloque">
+  <div class="bloque-cab"><h2>Últimos ensayos</h2><a href="{{ '/ensayos/' | relative_url }}">Ver todos →</a></div>
+  <ul class="lista-textos">
+    {% assign recientes = site.textos | where: "tipo", "articulo" | sort: "date" | reverse %}
+    {% for t in recientes limit: 4 %}{% include texto.html t=t %}{% endfor %}
+  </ul>
+</section>
+
+<section class="wrap bloque">
+  <div class="bloque-cab"><h2>Libros</h2><a href="{{ '/libros/' | relative_url }}">Catálogo completo →</a></div>
+  <div class="libros-grid">
+    {% assign destacados = site.libros | where_exp: "l", "l.anio != nil" | sort: "anio" | reverse %}
+    {% for l in destacados limit: 6 %}
+    <a class="libro-card" href="{{ l.url | relative_url }}">
+      <div class="portada {% unless l.portada %}portada-vacia{% endunless %}">{% if l.portada %}<img src="{{ l.portada | relative_url }}" alt="">{% else %}<span>{{ l.title }}</span>{% endif %}</div>
+      <p class="libro-titulo">{{ l.title }}</p>
+      <p class="meta">{{ l.anio }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="franja">
+  <div class="wrap franja-grid">
+    <div><p class="cifra">20+</p><p>libros publicados en Caracas, Madrid, Pamplona, París y Budapest</p></div>
+    <div><p class="cifra">1999</p><p>Miembro de la Academia Pontificia de Santo Tomás de Aquino</p></div>
+    <div><p class="cifra">Sillón Q</p><p>Academia Venezolana de la Lengua, desde 2011</p></div>
+  </div>
+</section>

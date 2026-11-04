@@ -10,6 +10,14 @@ layout: default
       <p class="antetitulo">{{ page.tema }}{% if page.anio %} · {{ page.anio }}{% endif %}</p>
       <h1>{{ page.title }}</h1>
       <p class="meta">{{ page.ediciones }}</p>
+      {% if page.detalles %}<p class="meta">{{ page.detalles }}</p>{% endif %}
+      {% if page.amazon or page.editor %}
+      <p class="comprar">
+        {% if page.editor and site.editorial.url %}<a class="boton" href="{{ page.editor_url | default: site.editorial.url }}" rel="noopener" target="_blank">Comprar en Venezuela</a>{% endif %}
+        {% if page.amazon %}<a class="boton boton-sec" href="{{ page.amazon }}" rel="noopener" target="_blank">Comprar en Amazon</a>{% endif %}
+      </p>
+      {% if page.editor %}<p class="meta">Edición de {{ site.editorial.nombre }}.</p>{% endif %}
+      {% endif %}
       <div class="prosa">{{ content }}</div>
       <p><a class="volver" href="{{ '/libros/' | relative_url }}">← Todos los libros</a></p>
     </div>

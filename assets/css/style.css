@@ -104,3 +104,4 @@ h2 { font-size: clamp(26px, 3.5vw, 34px); margin: 1.6em 0 .5em; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin: 4px 0; }
 .footer-base { border-top: 1px solid #2a3647; margin-top: 28px; padding-top: 14px; font-family: var(--sans); font-size: 13px; }
+.comprar { display: flex; flex-wrap: wrap; gap: 12px; margin: 18px 0 6px; }

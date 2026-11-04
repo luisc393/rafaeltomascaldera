@@ -21,3 +21,8 @@ defaults:
   - scope: { path: "" }
     values: { layout: page }
 exclude: [README.md, CLAUDE.md]
+
+# Editorial: botón "Comprar en Venezuela" en los libros con `editor: true`.
+editorial:
+  nombre: Luis Felipe Capriles Editor
+  url:

@@ -16,6 +16,9 @@ ediciones: "Caracas, Editorial, 2024"
 tema: "Amor y persona"        # o: Metafísica y conocimiento, Educación y universidad, Cultura venezolana, Lectura y escritura, Biblioteca Caldera
 resumen: "Una frase sobre el libro."
 portada: /assets/img/portadas/titulo-del-libro.jpg   # opcional
+detalles: "ISBN … · páginas · medidas"                # opcional
+amazon: https://www.amazon.com/dp/XXXXXXXXXX          # opcional: botón "Comprar en Amazon"
+editor: true                                         # opcional: botón "Comprar en Venezuela" (Luis Felipe Capriles Editor)
 ---
 
 Reseña o sinopsis del libro.
@@ -39,3 +42,5 @@ enlace: https://...
 
 - `index.html`: portada. `biografia.md`, `libros.html`, `ensayos.html`, `discursos.html`, `prensa.html`, `contacto.md`.
 - `assets/css/style.css`: estilos. Imágenes en `assets/img/`.
+
+El enlace de la tienda de Luis Felipe Capriles Editor está en `_config.yml` (`editorial.url`). Un libro puede llevar su propio enlace con `editor_url:`.

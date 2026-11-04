@@ -5,6 +5,11 @@ antetitulo: Vida y trayectoria
 entradilla: Filósofo, abogado y maestro de generaciones, ha dedicado su vida a la enseñanza universitaria y a pensar la cultura venezolana desde la tradición clásica.
 ---
 
+<figure class="foto-ancha">
+  <img src="/assets/img/fotos/caldera-2019-roberto-mata.jpg" alt="Rafael Tomás Caldera sonriendo, 2019" width="928" height="522">
+  <figcaption>2019. Foto: Roberto Mata.</figcaption>
+</figure>
+
 Rafael Tomás Caldera Pietri nació en Caracas el 19 de diciembre de 1945. Es hijo de Rafael Caldera, presidente de Venezuela en dos ocasiones, y de Alicia Pietri.
 
 ## Formación
@@ -42,4 +47,6 @@ También ha cuidado la obra de su padre: seleccionó y comentó el *Ideario* de 
 | 1988-1994 | Jefe del Departamento de Filosofía y director de División en la USB |
 | 1999 | Ingresa en la Academia Pontificia de Santo Tomás de Aquino |
 | 2011 | Se incorpora a la Academia Venezolana de la Lengua |
+| 2021 | Publica *Nostalgia y trascendencia* (Luis Felipe Capriles Editor) |
 | 2022 | Presenta *Nostalgia y trascendencia* en la Universidad Monteávila |
+| 2025 | Dicta la lección inaugural «La filosofía en la nueva era tecnológica» en la UCAB |

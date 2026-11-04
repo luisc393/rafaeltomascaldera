@@ -5,11 +5,6 @@ antetitulo: Vida y trayectoria
 entradilla: Filósofo, abogado y maestro de generaciones, ha dedicado su vida a la enseñanza universitaria y a pensar la cultura venezolana desde la tradición clásica.
 ---
 
-<figure class="foto-ancha">
-  <img src="/assets/img/fotos/caldera-2019-roberto-mata.jpg" alt="Rafael Tomás Caldera sonriendo, 2019" width="928" height="522">
-  <figcaption>2019. Foto: Roberto Mata.</figcaption>
-</figure>
-
 Rafael Tomás Caldera Pietri nació en Caracas el 19 de diciembre de 1945. Es hijo de Rafael Caldera, presidente de Venezuela en dos ocasiones, y de Alicia Pietri.
 
 ## Formación

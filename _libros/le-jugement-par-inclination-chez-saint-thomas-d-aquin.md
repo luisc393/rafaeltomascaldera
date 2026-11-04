@@ -1,5 +1,6 @@
 ---
 title: "Le jugement par inclination chez Saint Thomas d'Aquin"
+titulo_en: "Judgment by Inclination in Saint Thomas Aquinas"
 anio: 1980
 ediciones: "París, Librairie Philosophique J. Vrin, 1980"
 tema: "Metafísica y conocimiento"

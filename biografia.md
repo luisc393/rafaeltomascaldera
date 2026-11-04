@@ -1,5 +1,6 @@
 ---
 permalink: /biografia/
+alt: /en/biography/
 title: Biografía
 antetitulo: Vida y trayectoria
 entradilla: Filósofo, abogado y maestro de generaciones, ha dedicado su vida a la enseñanza universitaria y a pensar la cultura venezolana desde la tradición clásica.

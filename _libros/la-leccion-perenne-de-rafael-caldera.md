@@ -1,5 +1,6 @@
 ---
 title: "La lección perenne de Rafael Caldera"
+titulo_en: "The Enduring Lesson of Rafael Caldera"
 anio: 2022
 ediciones: "Caracas, Fundación Tomás Liscano"
 tema: "Biblioteca Caldera"

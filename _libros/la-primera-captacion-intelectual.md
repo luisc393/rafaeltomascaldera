@@ -1,5 +1,6 @@
 ---
 title: "La primera captación intelectual"
+titulo_en: "The First Intellectual Apprehension"
 anio: 1988
 ediciones: "Caracas, IDEA, 1988; 2.ª ed. revisada, Pamplona, 1999"
 tema: "Metafísica y conocimiento"

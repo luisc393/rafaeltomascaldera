@@ -1,0 +1,50 @@
+---
+layout: default
+lang: en
+alt: /
+title: Rafael Tomás Caldera
+description: Rafael Tomás Caldera, Venezuelan philosopher, essayist and university professor. Biography, books and writings.
+---
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="antetitulo">Philosophy · Education · Venezuelan culture</p>
+      <h1>Thinking about truth, love and our common life</h1>
+      <p class="entradilla">Rafael Tomás Caldera (Caracas, 1945) is a Venezuelan philosopher, essayist and university professor. He has taught generations of students at Universidad Simón Bolívar and Universidad Monteávila, and is the author of more than twenty books on knowledge, love, education and Latin American culture.</p>
+      <p class="acciones"><a class="boton" href="{{ '/en/books/' | relative_url }}">Explore his work</a> <a class="boton boton-sec" href="{{ '/en/biography/' | relative_url }}">Biography</a></p>
+    </div>
+    <figure class="retrato">
+      <img src="{{ '/assets/img/fotos/retrato-mata.jpg' | relative_url }}" alt="Portrait of Rafael Tomás Caldera" width="818" height="522">
+      <figcaption>Photo: Roberto Mata</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="cita">
+  <div class="wrap">
+    <blockquote>“It is worth offering reflections that help us think through our problems.”</blockquote>
+    <p class="meta">Interview in Revista SIC, 2021</p>
+  </div>
+</section>
+
+<section class="wrap bloque">
+  <div class="bloque-cab"><h2>Books</h2><a href="{{ '/en/books/' | relative_url }}">Full catalogue →</a></div>
+  <div class="libros-grid">
+    {% assign destacados = site.libros | where_exp: "l", "l.anio != nil" | sort: "anio" | reverse %}
+    {% for l in destacados limit: 6 %}
+    <a class="libro-card" href="{{ l.url | relative_url }}" hreflang="es">
+      <div class="portada {% unless l.portada %}portada-vacia{% endunless %}">{% if l.portada %}<img src="{{ l.portada | relative_url }}" alt="">{% else %}<span>{{ l.title }}</span>{% endif %}</div>
+      <p class="libro-titulo">{{ l.title }}</p>
+      <p class="meta">{{ l.titulo_en }} · {{ l.anio }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="franja">
+  <div class="wrap franja-grid">
+    <div><p class="cifra">20+</p><p>books published in Caracas, Madrid, Pamplona, Paris and Budapest</p></div>
+    <div><p class="cifra">1999</p><p>Member of the Pontifical Academy of Saint Thomas Aquinas</p></div>
+    <div><p class="cifra">Seat Q</p><p>Venezuelan Academy of Language, since 2011</p></div>
+  </div>
+</section>

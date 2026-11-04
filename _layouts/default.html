@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="es">
+<html lang="{{ page.lang | default: 'es' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
   {% feed_meta %}
+  {% if page.alt %}<link rel="alternate" hreflang="{% if page.lang == 'en' %}es{% else %}en{% endif %}" href="{{ page.alt | absolute_url }}">{% endif %}
   <meta name="theme-color" content="#1d2a3a">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,23 +16,58 @@
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="marca" href="{{ '/' | relative_url }}">
+      {%- if page.lang == 'en' -%}{%- assign inicio = '/en/' -%}{%- else -%}{%- assign inicio = '/' -%}{%- endif %}
+      <a class="marca" href="{{ inicio | relative_url }}">
         <span class="marca-nombre">Rafael Tomás Caldera</span>
-        <span class="marca-tag">{{ site.tagline }}</span>
+        <span class="marca-tag">{% if page.lang == 'en' %}Philosopher, essayist and university professor{% else %}{{ site.tagline }}{% endif %}</span>
       </a>
-      <nav class="nav" aria-label="Secciones">
+      <nav class="nav" aria-label="{% if page.lang == 'en' %}Sections{% else %}Secciones{% endif %}">
+        {%- if page.lang == 'en' %}
+        <a href="{{ '/en/biography/' | relative_url }}" {% if url contains '/en/biography/' %}class="activo"{% endif %}>Biography</a>
+        <a href="{{ '/en/books/' | relative_url }}" {% if url contains '/en/books/' %}class="activo"{% endif %}>Books</a>
+        <a href="{{ '/en/writings/' | relative_url }}" {% if url contains '/en/writings/' %}class="activo"{% endif %}>Writings</a>
+        <a href="{{ '/en/contact/' | relative_url }}" {% if url contains '/en/contact/' %}class="activo"{% endif %}>Contact</a>
+        <a class="idioma" href="{{ page.alt | default: '/' | relative_url }}" lang="es" hreflang="es">Español</a>
+        {%- else %}
         <a href="{{ '/biografia/' | relative_url }}" {% if url contains '/biografia/' %}class="activo"{% endif %}>Biografía</a>
         <a href="{{ '/libros/' | relative_url }}" {% if url contains '/libros/' %}class="activo"{% endif %}>Libros</a>
         <a href="{{ '/ensayos/' | relative_url }}" {% if url contains '/ensayos/' %}class="activo"{% endif %}>Ensayos</a>
         <a href="{{ '/discursos/' | relative_url }}" {% if url contains '/discursos/' %}class="activo"{% endif %}>Discursos</a>
         <a href="{{ '/prensa/' | relative_url }}" {% if url contains '/prensa/' %}class="activo"{% endif %}>Prensa</a>
         <a href="{{ '/contacto/' | relative_url }}" {% if url contains '/contacto/' %}class="activo"{% endif %}>Contacto</a>
+        <a class="idioma" href="{{ page.alt | default: '/en/' | relative_url }}" lang="en" hreflang="en">English</a>
+        {%- endif %}
       </nav>
     </div>
   </header>
   <main>
     {{ content }}
   </main>
+{% if page.lang == 'en' %}
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-nombre">Rafael Tomás Caldera</p>
+        <p>Professor of Philosophy at Universidad Simón Bolívar, Caracas. Member of the Venezuelan Academy of Language and of the Pontifical Academy of Saint Thomas Aquinas.</p>
+      </div>
+      <div>
+        <p class="footer-titulo">His work</p>
+        <ul>
+          <li><a href="{{ '/en/books/' | relative_url }}">Books</a></li>
+          <li><a href="{{ '/en/writings/' | relative_url }}">Essays, speeches and interviews</a></li>
+          <li><a href="{{ '/' | relative_url }}">Versión en español</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-titulo">Contact</p>
+        <ul>
+          <li><a href="mailto:contacto@rafaeltomascaldera.com">contacto@rafaeltomascaldera.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-base">© {{ site.time | date: "%Y" }} Rafael Tomás Caldera</div>
+  </footer>
+{% else %}
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <div>
@@ -58,5 +94,6 @@
     </div>
     <div class="wrap footer-base">© {{ site.time | date: "%Y" }} Rafael Tomás Caldera</div>
   </footer>
+{% endif %}
 </body>
 </html>

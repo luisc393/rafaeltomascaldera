@@ -1,5 +1,6 @@
 ---
 title: "Entender es decir"
+titulo_en: "To Understand Is to Say"
 anio: 2010
 ediciones: "Pamplona, 2010; 2.ª ed. revisada, Caracas, Universidad Monteávila, 2012"
 tema: "Metafísica y conocimiento"

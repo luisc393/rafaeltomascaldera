@@ -1,0 +1,20 @@
+---
+lang: en
+alt: /libros/
+permalink: /en/books/
+title: Books
+antetitulo: His work
+entradilla: His books, most recent first. Most are written in Spanish; the English title is a translation for reference. Each book links to its page in Spanish, with editions and where to buy it.
+---
+{% assign con_anio = site.libros | where_exp: "l", "l.anio != nil" | sort: "anio" | reverse %}
+{% assign sin_anio = site.libros | where_exp: "l", "l.anio == nil" %}
+{% assign todos = con_anio | concat: sin_anio %}
+<div class="libros-grid">
+  {% for l in todos %}
+  <a class="libro-card" href="{{ l.url | relative_url }}" hreflang="es">
+    <div class="portada {% unless l.portada %}portada-vacia{% endunless %}">{% if l.portada %}<img src="{{ l.portada | relative_url }}" alt="">{% else %}<span>{{ l.title }}</span>{% endif %}</div>
+    <p class="libro-titulo">{{ l.title }}</p>
+    <p class="meta">{{ l.titulo_en }}{% if l.anio %} · {{ l.anio }}{% endif %}</p>
+  </a>
+  {% endfor %}
+</div>

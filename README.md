@@ -44,3 +44,7 @@ enlace: https://...
 - `assets/css/style.css`: estilos. Imágenes en `assets/img/`.
 
 El enlace de la tienda de Luis Felipe Capriles Editor está en `_config.yml` (`editorial.url`). Un libro puede llevar su propio enlace con `editor_url:`.
+
+## Versión en inglés
+
+Las páginas en inglés están en `en/` (portada, biografía, libros, escritos y contacto). El botón "English" / "Español" de la cabecera cambia de idioma; cada página indica su equivalente con `alt:`. Los libros llevan su título traducido en `titulo_en:` y enlazan a su ficha en español. Si cambias un texto en español de la portada o la biografía, actualiza también su versión en `en/`.

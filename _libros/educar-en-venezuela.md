@@ -1,5 +1,6 @@
 ---
 title: "Educar en Venezuela"
+titulo_en: "Educating in Venezuela"
 anio: 2008
 ediciones: "Caracas, 2008. Nueva edición ampliada: Caracas, Luis Felipe Capriles Editor, 2022."
 detalles: "ISBN 978-980-18-2854-9"

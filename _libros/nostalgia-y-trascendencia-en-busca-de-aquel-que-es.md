@@ -1,5 +1,6 @@
 ---
 title: "Nostalgia y trascendencia. En busca de Aquel que Es"
+titulo_en: "Nostalgia and Transcendence: In Search of He Who Is"
 anio: 2021
 ediciones: "Caracas, Luis Felipe Capriles Editor, 2021. Presentado en la Universidad Monteávila en 2022."
 detalles: "ISBN 978-980-18-1851-9 · 93 páginas · 18 × 11 cm · Tapa blanda"

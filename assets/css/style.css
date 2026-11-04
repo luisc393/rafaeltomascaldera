@@ -112,3 +112,5 @@ h2 { font-size: clamp(26px, 3.5vw, 34px); margin: 1.6em 0 .5em; }
 .galeria figure { margin: 0; }
 .galeria img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; background: var(--papel-2); }
 .pagina:has(.galeria) .prosa { max-width: none; }
+.nav a.idioma { border: 1px solid rgba(205, 191, 155, .6); border-radius: 999px; padding: 3px 10px; color: #cdbf9b; }
+.nav a.idioma:hover { border-color: var(--oro); color: #fff; }

@@ -1,0 +1,20 @@
+---
+lang: en
+alt: /ensayos/
+permalink: /en/writings/
+title: Writings
+antetitulo: His work
+entradilla: Essays, academic papers, speeches and interviews. All are in Spanish; links go to the original publication.
+---
+{% assign grupos = "articulo:Essays and opinion pieces,academico:Academic papers,discurso:Speeches and lectures,entrevista:Interviews and reviews" | split: "," %}
+{% for g in grupos %}
+{% assign par = g | split: ":" %}
+<h2>{{ par[1] }}</h2>
+<ul class="lista-textos">
+{% assign a = site.textos | where: "tipo", par[0] | sort: "date" | reverse %}{% for t in a %}
+<li class="texto">
+  <a href="{{ t.enlace }}" rel="noopener" target="_blank" hreflang="es">{{ t.title }}</a>
+  <span class="meta">{{ t.fuente }} · {% if t.tipo == 'articulo' %}{{ t.date | date: "%B %Y" }}{% else %}{{ t.date | date: "%Y" }}{% endif %}</span>
+</li>{% endfor %}
+</ul>
+{% endfor %}

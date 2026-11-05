@@ -14,3 +14,24 @@
   descripcion_en: "A conversation on the philosophical vocation, philosophy in Venezuela and the country's reconstruction, recorded at Universidad Monteávila. In Spanish."
   canal: "Filosofando Sin Filtros"
   fecha: 2025-07-27
+- id: bA_ZUHx1sEg
+  titulo: "Palabras en los 60 años de cooperación de la Fundación Konrad Adenauer"
+  titulo_en: "Remarks on 60 years of cooperation with the Konrad Adenauer Foundation"
+  descripcion: "Intervención en el acto por los sesenta años de cooperación internacional de la Fundación Konrad Adenauer (KAS) en Venezuela."
+  descripcion_en: "Remarks at the event marking sixty years of international cooperation by the Konrad Adenauer Foundation (KAS) in Venezuela. In Spanish."
+  canal: "Rafael Caldera Oficial"
+  fecha: 2022-10-26   # año del aniversario (ver su artículo en La Gran Aldea, 26-10-2022); YouTube no muestra la fecha exacta
+- id: 8sE2RRTBMrQ
+  titulo: "Entrevista en La Hora Clave"
+  titulo_en: "Interview on La Hora Clave"
+  descripcion: "Entrevista en el programa de opinión La Hora Clave."
+  descripcion_en: "Interview on the Venezuelan current-affairs programme La Hora Clave. In Spanish."
+  canal: "Rafael Caldera Oficial"
+  fecha: 2015-09-02   # fecha de publicación en YouTube
+- id: aZW8xUXuMuo
+  titulo: "«No es posible construir democracia sin una meta como el desarrollo»"
+  titulo_en: "“Democracy cannot be built without a goal such as development”"
+  descripcion: "Declaraciones a Globovisión sobre democracia y desarrollo."
+  descripcion_en: "Remarks to Globovisión on democracy and development. In Spanish."
+  canal: "Globovisión"
+  # fecha: sin dato (YouTube no la muestra); sin fecha, el video va al final

@@ -1,0 +1,14 @@
+{% assign en = include.en %}
+<div class="videos">
+{% assign vs = site.data.videos | sort: "fecha" | reverse %}{% for v in vs %}
+  <figure class="video">
+    <div class="video-marco">
+      <iframe src="https://www.youtube-nocookie.com/embed/{{ v.id }}" title="{% if en %}{{ v.titulo_en | default: v.titulo }}{% else %}{{ v.titulo }}{% endif %}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <figcaption>
+      <a class="video-titulo" href="https://www.youtube.com/watch?v={{ v.id }}" rel="noopener" target="_blank">{% if en %}{{ v.titulo_en | default: v.titulo }}{% else %}{{ v.titulo }}{% endif %}</a>
+      <p>{% if en %}{{ v.descripcion_en | default: v.descripcion }}{% else %}{{ v.descripcion }}{% endif %}</p>
+      <span class="meta">{{ v.canal }} · {{ v.fecha | date: "%Y" }}</span>
+    </figcaption>
+  </figure>{% endfor %}
+</div>

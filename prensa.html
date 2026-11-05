@@ -1,9 +1,13 @@
 ---
 permalink: /prensa/
-title: Entrevistas y prensa
+title: Entrevistas, prensa y videos
 antetitulo: Sobre su obra
-entradilla: Entrevistas, reseñas y estudios sobre su pensamiento.
+entradilla: Entrevistas, reseñas, estudios y videos sobre su pensamiento.
 ---
+<h2>Videos</h2>
+{% include videos.html %}
+
+<h2>Entrevistas y reseñas</h2>
 <ul class="lista-textos">
 {% assign a = site.textos | where: "tipo", "entrevista" | sort: "date" | reverse %}{% for t in a %}{% include texto.html t=t %}{% endfor %}
 </ul>

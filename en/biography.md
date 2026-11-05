@@ -46,3 +46,4 @@ His books have been published in Caracas, Madrid, Pamplona, Paris and Budapest, 
 | 2011 | Inducted into the Venezuelan Academy of Language |
 | 2021 | Publishes *Nostalgia y trascendencia* (Luis Felipe Capriles Editor) |
 | 2025 | Delivers the inaugural lecture "Philosophy in the New Technological Age" at Universidad Católica Andrés Bello |
+| 2026 | Receives an honorary doctorate from Universidad Monteávila, one of the first two it has awarded, with Christine de Marcellus de Vollmer |

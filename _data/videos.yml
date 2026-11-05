@@ -1,0 +1,16 @@
+# Videos de YouTube. Para agregar uno, copia un bloque y cambia los datos.
+# id: lo que va después de "watch?v=" en el enlace de YouTube.
+- id: CccvvTGU9oo
+  titulo: "Doctor honoris causa de la Universidad Monteávila"
+  titulo_en: "Honorary doctorate from Universidad Monteávila"
+  descripcion: "La Universidad Monteávila otorga sus primeros doctorados honoris causa a Rafael Tomás Caldera y a Christine de Marcellus de Vollmer."
+  descripcion_en: "Universidad Monteávila awards its first honorary doctorates to Rafael Tomás Caldera and Christine de Marcellus de Vollmer."
+  canal: "Universidad Monteávila"
+  fecha: 2026-05-20
+- id: kpz_EtErQGc
+  titulo: "«La crisis nos obliga a pensar»"
+  titulo_en: "“The crisis forces us to think”"
+  descripcion: "Conversación sobre la vocación filosófica, la filosofía en Venezuela y la reconstrucción del país, grabada en la Universidad Monteávila."
+  descripcion_en: "A conversation on the philosophical vocation, philosophy in Venezuela and the country's reconstruction, recorded at Universidad Monteávila. In Spanish."
+  canal: "Filosofando Sin Filtros"
+  fecha: 2025-07-27

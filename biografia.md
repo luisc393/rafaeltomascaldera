@@ -46,3 +46,4 @@ También ha cuidado la obra de su padre: seleccionó y comentó el *Ideario* de 
 | 2021 | Publica *Nostalgia y trascendencia* (Luis Felipe Capriles Editor) |
 | 2022 | Presenta *Nostalgia y trascendencia* en la Universidad Monteávila |
 | 2025 | Dicta la lección inaugural «La filosofía en la nueva era tecnológica» en la UCAB |
+| 2026 | Recibe, junto con Christine de Marcellus de Vollmer, los primeros doctorados honoris causa de la Universidad Monteávila |

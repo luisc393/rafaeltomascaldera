@@ -4,7 +4,7 @@ alt: /ensayos/
 permalink: /en/writings/
 title: Writings
 antetitulo: His work
-entradilla: Essays, academic papers, speeches and interviews. All are in Spanish; links go to the original publication.
+entradilla: Essays, academic papers, speeches, interviews and videos. All are in Spanish; links go to the original publication.
 ---
 {% assign grupos = "articulo:Essays and opinion pieces,academico:Academic papers,discurso:Speeches and lectures,entrevista:Interviews and reviews" | split: "," %}
 {% for g in grupos %}
@@ -18,3 +18,6 @@ entradilla: Essays, academic papers, speeches and interviews. All are in Spanish
 </li>{% endfor %}
 </ul>
 {% endfor %}
+
+<h2>Videos</h2>
+{% include videos.html en=true %}

@@ -48,3 +48,7 @@ El enlace de la tienda de Luis Felipe Capriles Editor está en `_config.yml` (`e
 ## Versión en inglés
 
 Las páginas en inglés están en `en/` (portada, biografía, libros, escritos y contacto). El botón "English" / "Español" de la cabecera cambia de idioma; cada página indica su equivalente con `alt:`. Los libros llevan su título traducido en `titulo_en:` y enlazan a su ficha en español. Si cambias un texto en español de la portada o la biografía, actualiza también su versión en `en/`.
+
+## Agregar un video
+
+Los videos de YouTube están en `_data/videos.yml` y salen en la página de prensa (`/prensa/`) y en la de escritos en inglés (`/en/writings/`). Para añadir uno, copia un bloque y cambia el `id` (lo que va después de `watch?v=` en el enlace), el título, la descripción, el canal y la fecha.

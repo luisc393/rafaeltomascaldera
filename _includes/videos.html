@@ -8,7 +8,7 @@
     <figcaption>
       <a class="video-titulo" href="https://www.youtube.com/watch?v={{ v.id }}" rel="noopener" target="_blank">{% if en %}{{ v.titulo_en | default: v.titulo }}{% else %}{{ v.titulo }}{% endif %}</a>
       <p>{% if en %}{{ v.descripcion_en | default: v.descripcion }}{% else %}{{ v.descripcion }}{% endif %}</p>
-      <span class="meta">{{ v.canal }} · {{ v.fecha | date: "%Y" }}</span>
+      <span class="meta">{{ v.canal }}{% if v.fecha %} · {{ v.fecha | date: "%Y" }}{% endif %}</span>
     </figcaption>
   </figure>{% endfor %}
 </div>

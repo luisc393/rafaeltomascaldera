@@ -28,3 +28,10 @@
   descripcion_en: "Interview on the Venezuelan current-affairs programme La Hora Clave. In Spanish."
   canal: "Rafael Caldera Oficial"
   fecha: 2015-09-02   # fecha de publicación en YouTube
+- id: aZW8xUXuMuo
+  titulo: "«No es posible construir democracia sin una meta como el desarrollo»"
+  titulo_en: "“Democracy cannot be built without a goal such as development”"
+  descripcion: "Declaraciones a Globovisión sobre democracia y desarrollo."
+  descripcion_en: "Remarks to Globovisión on democracy and development. In Spanish."
+  canal: "Globovisión"
+  # fecha: sin dato (YouTube no la muestra); sin fecha, el video va al final

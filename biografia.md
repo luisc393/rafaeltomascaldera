@@ -12,6 +12,12 @@ Rafael Tomás Caldera Pietri nació en Caracas el 19 de diciembre de 1945. Es hi
 
 Se graduó de abogado en la Universidad Central de Venezuela en 1967. Continuó estudios en la Universidad de Notre Dame (Estados Unidos), donde obtuvo el Master of Arts en 1970, y se doctoró en la Universidad de Friburgo (Suiza) en 1974 con una tesis sobre el juicio por inclinación en santo Tomás de Aquino, publicada en París por la editorial Vrin.
 
+## La revista *Vértice*
+
+Entre 1962 y 1968 fue uno de los editores principales de [*Vértice*](https://venezuelaentrelineas.com/vertice/), una revista universitaria de ideas, artes y letras que un grupo de estudiantes sacó adelante en Caracas. Formó parte del consejo de dirección desde el primer número, de mayo de 1962, cuando aún cursaba el último año de bachillerato en el Colegio San Ignacio, y asumió la jefatura de redacción, que mantuvo durante sus estudios de Derecho en la Universidad Central de Venezuela. En ese primer número firmó el artículo [«La ciudad de las influencias»](https://venezuelaentrelineas.com/vertice/01/la-ciudad-de-las-influencias/).
+
+Los números de *Vértice* se están digitalizando y pueden consultarse en la [hemeroteca de Venezuela entre líneas](https://venezuelaentrelineas.com/vertice/).
+
 ## Docencia
 
 Es profesor titular del Departamento de Filosofía de la Universidad Simón Bolívar, donde enseña Filosofía Medieval y Antropología Filosófica. También es profesor de la Universidad Monteávila de Caracas.
@@ -35,6 +41,7 @@ También ha cuidado la obra de su padre: seleccionó y comentó el *Ideario* de 
 | Año | |
 |---|---|
 | 1945 | Nace en Caracas, el 19 de diciembre |
+| 1962-1968 | Uno de los editores principales de la revista [*Vértice*](https://venezuelaentrelineas.com/vertice/) |
 | 1967 | Abogado, Universidad Central de Venezuela |
 | 1970 | Master of Arts, Universidad de Notre Dame |
 | 1974 | Doctorado, Universidad de Friburgo |

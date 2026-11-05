@@ -13,6 +13,12 @@ Rafael Tomás Caldera Pietri was born in Caracas on 19 December 1945. He is the 
 
 He graduated in law from the Universidad Central de Venezuela in 1967. He went on to earn a Master of Arts at the University of Notre Dame (United States) in 1970 and a doctorate at the University of Fribourg (Switzerland) in 1974, with a thesis on judgment by inclination in Saint Thomas Aquinas, published in Paris by Vrin.
 
+## *Vértice* magazine
+
+From 1962 to 1968 he was one of the principal editors of [*Vértice*](https://venezuelaentrelineas.com/vertice/), a university magazine of ideas, arts and letters run by a group of students in Caracas. He sat on its editorial board from the first issue, in May 1962, while still in his final year of secondary school at Colegio San Ignacio, and became its editor-in-chief, a role he kept while studying law at Universidad Central de Venezuela. In that first issue he wrote the article ["La ciudad de las influencias"](https://venezuelaentrelineas.com/vertice/01/la-ciudad-de-las-influencias/) ("The City of Influences").
+
+The issues of *Vértice* are being digitized and can be read (in Spanish) in the [Venezuela entre líneas archive](https://venezuelaentrelineas.com/vertice/).
+
 ## Teaching
 
 He is a full professor in the Department of Philosophy at Universidad Simón Bolívar in Caracas, where he teaches Medieval Philosophy and Philosophical Anthropology. He also teaches at Universidad Monteávila.
@@ -36,6 +42,7 @@ His books have been published in Caracas, Madrid, Pamplona, Paris and Budapest, 
 | Year | |
 |---|---|
 | 1945 | Born in Caracas, 19 December |
+| 1962–1968 | One of the principal editors of the magazine [*Vértice*](https://venezuelaentrelineas.com/vertice/) |
 | 1967 | Law degree, Universidad Central de Venezuela |
 | 1970 | Master of Arts, University of Notre Dame |
 | 1974 | Doctorate, University of Fribourg |

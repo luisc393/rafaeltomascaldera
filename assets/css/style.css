@@ -28,7 +28,8 @@ h2 { font-size: clamp(26px, 3.5vw, 34px); margin: 1.6em 0 .5em; }
 .entradilla { font-size: 22px; color: var(--tinta-2); max-width: 40em; }
 
 /* Cabecera */
-.site-header { background: var(--azul); color: #f4efe4; border-bottom: 3px solid var(--oro); }
+.site-header { background: var(--azul) url("../img/cabecera-cielo.svg") center / 1600px 100% repeat-x; color: #f4efe4; border-bottom: 3px solid var(--oro); }
+.marca-nombre::after { content: ""; display: inline-block; width: 44px; height: 22px; margin-left: 8px; vertical-align: top; background: url("../img/cabecera-estrella.svg") no-repeat center / contain; }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; padding-top: 18px; padding-bottom: 14px; }
 .marca { text-decoration: none; color: inherit; display: flex; flex-direction: column; }
 .marca-nombre { font-family: var(--display); font-size: clamp(26px, 4vw, 34px); font-weight: 600; letter-spacing: .01em; }

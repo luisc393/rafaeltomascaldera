@@ -121,7 +121,8 @@ h2 { font-size: clamp(26px, 3.5vw, 34px); margin: 1.6em 0 .5em; }
 .footer-titulo { font-family: var(--sans); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #cdbf9b; margin: 0 0 8px; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin: 4px 0; }
-.footer-base { border-top: 1px solid #2a3647; margin-top: 28px; padding-top: 14px; font-family: var(--sans); font-size: 13px; }
+.footer-base { border-top: 1px solid #2a3647; margin-top: 28px; padding-top: 14px; font-family: var(--sans); font-size: 13px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; }
+.footer-base .credito { opacity: .75; }
 .comprar { display: flex; flex-wrap: wrap; gap: 12px; margin: 18px 0 6px; }
 .foto-ancha { margin: 0 0 1.5em; }
 .foto-ancha figcaption, .galeria figcaption { font-family: var(--sans); font-size: 13px; color: var(--gris); margin-top: 6px; line-height: 1.4; }

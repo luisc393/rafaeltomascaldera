@@ -52,3 +52,7 @@ Las páginas en inglés están en `en/` (portada, biografía, libros, escritos y
 ## Agregar un video
 
 Los videos de YouTube están en `_data/videos.yml` y salen en la página de prensa (`/prensa/`) y en la de escritos en inglés (`/en/writings/`). Para añadir uno, copia un bloque y cambia el `id` (lo que va después de `watch?v=` en el enlace), el título, la descripción, el canal y la fecha.
+
+## Homenaje en Papel Literario (2026)
+
+Los textos de la edición de *Papel Literario* (El Nacional, 15 de noviembre de 2026) dedicada a Rafael Tomás Caldera están en `_homenaje/` (uno por archivo, con `autor`, `entradilla`, `bio` y `pagina` de la edición impresa) y se publican en `/papel-literario-2026/`. Los datos de la edición (fecha, director, enlace, PDF) están en `_data/papel_literario.yml`. Cuando El Nacional publique un texto en su web, añade `enlace: https://...` a su archivo para que el crédito apunte allí.

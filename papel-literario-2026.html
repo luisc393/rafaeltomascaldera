@@ -1,0 +1,25 @@
+---
+permalink: /papel-literario-2026/
+title: Homenaje en Papel Literario
+antetitulo: El Nacional · 15 de noviembre de 2026
+entradilla: "El suplemento cultural de El Nacional dedicó su edición del domingo 15 de noviembre de 2026 a «Rafael Tomás Caldera, pensador venezolano»: una entrevista, una semblanza, dieciocho ensayos de colegas, discípulos y amigos, y un texto suyo."
+description: Edición de Papel Literario (El Nacional, 15 de noviembre de 2026) dedicada a Rafael Tomás Caldera. Entrevista y ensayos sobre su obra.
+---
+{%- assign ed = site.data.papel_literario -%}
+<div class="homenaje-portada">
+  <a href="{{ ed.pdf | relative_url }}"><img src="{{ ed.portada | relative_url }}" alt="Primera página de Papel Literario del 15 de noviembre de 2026" width="800" height="1313" loading="lazy"></a>
+  <div>
+    <p>Bajo la dirección de {{ ed.director }}, <em>Papel Literario</em> reunió a filósofos, profesores, antiguos alumnos y amigos de Rafael Tomás Caldera de Venezuela y de otros siete países. Aquí están todos los textos, cotejados con la edición impresa.</p>
+    <p><a class="boton" href="{{ ed.pdf | relative_url }}">Descargar la edición en PDF</a> <a class="boton boton-sec" href="{{ ed.enlace }}" rel="noopener" target="_blank">Papel Literario en elnacional.com</a></p>
+  </div>
+</div>
+
+<ul class="lista-textos">
+{%- assign piezas = site.homenaje | sort: "orden" -%}
+{% for p in piezas %}
+<li class="texto">
+  <a href="{{ p.url | relative_url }}">{% if p.titulo_md %}{{ p.titulo_md | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% else %}{{ p.title }}{% endif %}</a>
+  <span class="meta">{% if p.tipo %}{{ p.tipo }}{% if p.autor %} · {% endif %}{% endif %}{% if p.autor %}{{ p.autor }}{% endif %} · p. {{ p.pagina }}</span>
+</li>
+{%- endfor %}
+</ul>

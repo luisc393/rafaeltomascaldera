@@ -4,9 +4,9 @@ alt: /ensayos/
 permalink: /en/writings/
 title: Writings
 antetitulo: His work
-entradilla: Essays, academic papers, speeches, interviews and videos. All are in Spanish; links go to the original publication.
+entradilla: Essays, academic papers, speeches and lectures. All are in Spanish; links go to the original publication.
 ---
-{% assign grupos = "articulo:Essays and opinion pieces,academico:Academic papers,discurso:Speeches and lectures,entrevista:Interviews and reviews" | split: "," %}
+{% assign grupos = "articulo:Essays and opinion pieces,academico:Academic papers,discurso:Speeches and lectures" | split: "," %}
 {% for g in grupos %}
 {% assign par = g | split: ":" %}
 <h2>{{ par[1] }}</h2>
@@ -19,5 +19,4 @@ entradilla: Essays, academic papers, speeches, interviews and videos. All are in
 </ul>
 {% endfor %}
 
-<h2>Videos</h2>
-{% include videos.html en=true %}
+<p class="meta">Interviews, press coverage and videos are on the <a href="{{ '/en/press/' | relative_url }}">Press</a> page.</p>

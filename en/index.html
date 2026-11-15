@@ -28,6 +28,10 @@ description: Rafael Tomás Caldera, Venezuelan philosopher, essayist and univers
 </section>
 
 <section class="wrap bloque">
+  <div class="destacado-homenaje">
+    <p class="antetitulo">Papel Literario · El Nacional · 15 November 2026</p>
+    <p><a href="{{ '/en/papel-literario-2026/' | relative_url }}"><strong>Tribute to Rafael Tomás Caldera, Venezuelan thinker</strong></a>: an interview and eighteen essays on his life and work, in English translation.</p>
+  </div>
   <div class="bloque-cab"><h2>Books</h2><a href="{{ '/en/books/' | relative_url }}">Full catalogue →</a></div>
   <div class="libros-grid">
     {% assign destacados = site.libros | where_exp: "l", "l.anio != nil" | sort: "anio" | reverse %}

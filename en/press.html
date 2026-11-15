@@ -1,0 +1,26 @@
+---
+lang: en
+alt: /prensa/
+permalink: /en/press/
+title: Interviews, press and videos
+antetitulo: On his work
+entradilla: Interviews, reviews, studies and videos about his thought.
+---
+<h2>Tribute in Papel Literario</h2>
+<div class="destacado-homenaje">
+  <p><a href="{{ '/en/papel-literario-2026/' | relative_url }}"><strong>“Rafael Tomás Caldera, Venezuelan thinker”</strong></a></p>
+  <p class="meta">Papel Literario, El Nacional · 15 November 2026 · An interview by Cenovia Casas and essays by Jaime Nubiola, Alejandro Serani Merlo, María de las Nieves Viaña, Sandra Timaure, Carlos Casanova, Mátyás Szalay, Joaquín Rodríguez, Francisco Plaza, Eugenio Yáñez, Sandra Caula, Raúl González Fabre, Grisel Guerra de Avellaneda, Enrique Altimari, Elizabeth Millán Brusslan, Ramón Cardozo, Gehard Cartay Ramírez and Juan Salvador Pérez, translated into English.</p>
+</div>
+
+<h2>Videos</h2>
+{% include videos.html en=true %}
+
+<h2>Interviews and reviews</h2>
+<p class="meta">In Spanish; links go to the original publication.</p>
+<ul class="lista-textos">
+{% assign a = site.textos | where: "tipo", "entrevista" | sort: "date" | reverse %}{% for t in a %}
+<li class="texto">
+  <a href="{{ t.enlace }}" rel="noopener" target="_blank" hreflang="es">{{ t.title }}</a>
+  <span class="meta">{{ t.fuente }} · {{ t.date | date: "%Y" }}</span>
+</li>{% endfor %}
+</ul>

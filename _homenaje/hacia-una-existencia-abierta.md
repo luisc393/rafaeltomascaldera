@@ -1,6 +1,7 @@
 ---
 title: "Hacia una existencia abierta"
 autor: "Mátyás Szalay"
+alt: /en/papel-literario-2026/hacia-una-existencia-abierta/
 orden: 8
 pagina: "6"
 entradilla: "“Caldera no pretende saber más o mejor que su santo guía, pero quiere iluminar todo lo que ofrece la tradición en diálogo serio con voces contemporáneas”."

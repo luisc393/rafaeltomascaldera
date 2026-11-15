@@ -2,6 +2,7 @@
 title: "El oficio de Rafael Tomás Caldera"
 autor: "Eugenio Yáñez"
 enlace: https://www.elnacional.com/papel-literario/2026/11/el-oficio-de-rafael-tomas-caldera/
+alt: /en/papel-literario-2026/el-oficio-de-rafael-tomas-caldera/
 orden: 11
 pagina: "7"
 entradilla: "“Nace, pues, de un compromiso radical con la verdad, que intenta llevar hasta el fondo los grandes interrogantes acerca del mundo, del hombre y de Dios”."

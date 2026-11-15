@@ -2,6 +2,7 @@
 title: "El ser como don y el amor como respuesta"
 autor: "Francisco Plaza"
 enlace: https://www.elnacional.com/papel-literario/2026/11/el-ser-como-don-y-el-amor-como-respuesta/
+alt: /en/papel-literario-2026/el-ser-como-don-y-el-amor-como-respuesta/
 orden: 10
 pagina: "7"
 entradilla: "“La obra de Rafael Tomás Caldera ha mostrado, a lo largo de más de seis décadas, que esta metafísica existencial de la participación conduce a una comprensión más honda de la persona humana”."

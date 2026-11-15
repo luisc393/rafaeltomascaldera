@@ -1,6 +1,7 @@
 ---
 title: "El combate por la historia"
 autor: "Francisco Plaza"
+enlace: https://www.elnacional.com/papel-literario/2026/11/el-combate-por-la-historia/
 orden: 17
 pagina: "10"
 entradilla: "La condición para la reconstrucción de Venezuela en el pensamiento de Rafael Tomás Caldera."

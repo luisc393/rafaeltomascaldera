@@ -1,6 +1,7 @@
 ---
 title: "Futuros de la educación universitaria"
 autor: "Raúl González Fabre"
+enlace: https://www.elnacional.com/papel-literario/2026/11/futuros-de-la-educacion-universitaria/
 orden: 13
 pagina: "8"
 entradilla: "“En este punto converge nuestro argumento con el de Rafael Tomás Caldera. La nueva era tecnológica nos obliga a redescubrir lo que en el ser humano no es delegable a las máquinas”."

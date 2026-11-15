@@ -1,6 +1,7 @@
 ---
 title: "Hurgando en el “hondor recóndito” de la experiencia"
 autor: "Alejandro Serani Merlo"
+enlace: https://www.elnacional.com/papel-literario/2026/11/hurgando-en-el-hondor-recondito-de-la-experiencia/
 orden: 4
 pagina: "4"
 entradilla: "“Si el talante caracterial del filósofo ha tenido responsabilidad en su filosofía, ello se manifiesta no solo en la andadura meditativa de sus aproximaciones, sino también en la elección de sus temas”."

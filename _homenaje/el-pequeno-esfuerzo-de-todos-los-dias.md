@@ -1,6 +1,7 @@
 ---
 title: "El pequeño esfuerzo de todos los días"
 autor: "Enrique Altimari"
+enlace: https://www.elnacional.com/papel-literario/2026/11/el-pequeno-esfuerzo-de-todos-los-dias/
 orden: 15
 pagina: "9"
 entradilla: "Sobre *Ensayos sobre nuestra situación cultural*, de Rafael Tomás Caldera."

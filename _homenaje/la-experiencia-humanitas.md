@@ -1,6 +1,7 @@
 ---
 title: "La experiencia Humanitas: formando jóvenes para la política"
 autor: "Ramón Cardozo"
+enlace: https://www.elnacional.com/papel-literario/2026/11/la-experiencia-humanitas-formando-jovenes-para-la-politica/
 orden: 18
 pagina: "11"
 entradilla: "“Sostiene Caldera que el orden social no es estático: cada generación debe abordar de nuevo los problemas de la convivencia y encontrar respuestas adecuadas a su propio tiempo”."

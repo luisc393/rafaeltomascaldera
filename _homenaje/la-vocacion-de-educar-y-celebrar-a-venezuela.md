@@ -1,6 +1,7 @@
 ---
 title: "La vocación de educar y celebrar a Venezuela"
 autor: "Elizabeth Millán Brusslan"
+enlace: https://www.elnacional.com/papel-literario/2026/11/la-vocacion-de-educar-y-celebrar-a-venezuela/
 orden: 16
 pagina: "10"
 entradilla: "En los tiempos cuando uno se siente solo, hace falta una fuerte amistad."

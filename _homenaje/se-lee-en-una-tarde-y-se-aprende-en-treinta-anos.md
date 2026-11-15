@@ -1,6 +1,7 @@
 ---
 title: "Se lee en una tarde y se aprende en treinta años"
 autor: "Sandra Caula"
+enlace: https://www.elnacional.com/papel-literario/2026/11/se-lee-en-una-tarde-y-se-aprende-en-treinta-anos/
 orden: 12
 pagina: "8"
 entradilla: "En 1983 Rafael Tomás Caldera publicó un cuaderno de setenta y siete páginas sobre leer y escribir. Desde entonces no ha dejado de reeditarse."

@@ -1,6 +1,7 @@
 ---
 title: "Respuestas de Gallegos a una pregunta siempre vigente"
 autor: "Grisel Guerra de Avellaneda"
+enlace: https://www.elnacional.com/papel-literario/2026/11/respuestas-de-gallegos-a-una-pregunta-siempre-vigente/
 orden: 14
 pagina: "9"
 entradilla: "“Rafael Tomás Caldera publica, en 1980, *La respuesta de Gallegos*: tres ensayos que atienden de un modo muy inteligente no solo la inquietud histórica del latinoamericano sobre su propia identidad, sino también el modo como se han formulado las preguntas y los desaciertos en la búsqueda de las respuestas”."

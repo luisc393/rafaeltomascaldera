@@ -1,6 +1,7 @@
 ---
 title: "El don de Rafael Tomás Caldera"
 autor: "Jaime Nubiola"
+enlace: https://www.elnacional.com/papel-literario/2026/11/el-don-de-rafael-tomas-caldera/
 orden: 3
 pagina: "3"
 entradilla: "La vida de Rafael Tomás Caldera ha sido un regalo para Venezuela, para el mundo universitario, para la humanidad en general y para mí en particular. No es esta una expresión grandilocuente, movida por la enorme admiración y el todavía mayor afecto que le tengo, sino que sencillamente es verdad."

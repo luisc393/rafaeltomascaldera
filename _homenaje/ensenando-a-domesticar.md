@@ -1,6 +1,7 @@
 ---
 title: "Enseñando a domesticar"
 autor: "Joaquín Rodríguez"
+enlace: https://www.elnacional.com/papel-literario/2026/11/ensenando-a-domesticar/
 orden: 9
 pagina: "6"
 entradilla: "“En *La existencia abierta* el Dr. Caldera ofrece una interpretación para la lectura de *El Principito*. Advierte, sin embargo, que esta obra de Antoine de Saint-Exupéry admite tantas significaciones cuantas puedan corresponder a las experiencias personales de cada uno de sus millones de lectores”."

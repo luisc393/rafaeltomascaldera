@@ -6,9 +6,10 @@ ediciones: "Caracas, Luis Felipe Capriles Editor, 2021. Presentado en la Univers
 detalles: "ISBN 978-980-18-1851-9 · 93 páginas · 18 × 11 cm · Tapa blanda"
 tema: "Metafísica y conocimiento"
 resumen: "Dos ensayos sobre la espiritualidad del alma humana y el destino trascendente de la persona."
-portada:
-amazon:
+portada: /assets/img/portadas/nostalgia-y-trascendencia.jpg
+amazon: https://www.amazon.com/dp/B0HRMKK8J9
 editor: true
+editor_url: https://luisfelipecaprileseditor.com/en-busca-de-aquel-que-es/
 ---
 
 Más allá de fórmulas verbales, encontramos en lo compacto de la experiencia la manifestación de lo humano. El análisis, señala el autor, procederá luego a diferenciar los niveles y el sentido de lo hallado.

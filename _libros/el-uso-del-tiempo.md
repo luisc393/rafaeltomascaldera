@@ -6,5 +6,6 @@ ediciones: "Caracas, 1995; 2.ª ed., 2004"
 tema: "Amor y persona"
 resumen: ""
 portada:
+amazon: https://www.amazon.com/dp/B0FS7TX1FQ
 ---
 

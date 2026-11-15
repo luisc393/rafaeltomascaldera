@@ -6,5 +6,6 @@ ediciones: "Madrid, Ediciones Rialp, 2014"
 tema: "Lectura y escritura"
 resumen: ""
 portada:
+amazon: https://www.amazon.es/dp/B07KS8RTKX
 ---
 

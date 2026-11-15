@@ -18,7 +18,7 @@ resumen: "Una frase sobre el libro."
 portada: /assets/img/portadas/titulo-del-libro.jpg   # opcional
 detalles: "ISBN … · páginas · medidas"                # opcional
 amazon: https://www.amazon.com/dp/XXXXXXXXXX          # opcional: botón "Comprar en Amazon"
-editor: true                                         # opcional: botón "Comprar en Venezuela" (Luis Felipe Capriles Editor)
+editor: true                                         # opcional: botón "Venta en Venezuela" (Luis Felipe Capriles Editor)
 ---
 
 Reseña o sinopsis del libro.

@@ -1,6 +1,7 @@
 ---
 title: "Una vida al servicio de la dignidad humana"
 tipo: "Semblanza"
+alt: /en/papel-literario-2026/una-vida-al-servicio-de-la-dignidad-humana/
 orden: 2
 pagina: "2"
 entradilla: "Extracto del guion de un documental sobre su vida y obra."

@@ -3,6 +3,7 @@ title: "Vox clamantis in deserto"
 titulo_md: "*Vox clamantis in deserto*"
 autor: "Juan Salvador Pérez"
 enlace: https://www.elnacional.com/papel-literario/2026/11/vox-clamantis-in-deserto/
+alt: /en/papel-literario-2026/vox-clamantis-in-deserto/
 orden: 20
 pagina: "12"
 entradilla: "“El diagnóstico de Rafael Tomás Caldera sobre la realidad venezolana desentraña las causas de la crisis con rigor filosófico, humanista y cristiano”."

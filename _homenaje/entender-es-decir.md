@@ -3,6 +3,7 @@ title: "Entender es decir"
 titulo_md: "*Entender es decir*"
 autor: "Carlos Casanova"
 enlace: https://www.elnacional.com/papel-literario/2026/11/entender-es-decir/
+alt: /en/papel-literario-2026/entender-es-decir/
 orden: 7
 pagina: "5"
 entradilla: "“*Entender es decir* intenta mostrar cómo la obra de santo Tomás responde a los problemas conectados con la relación entre la conciencia reflexiva al modo del *cogito* cartesiano y los manantiales originarios de la misma conciencia”."

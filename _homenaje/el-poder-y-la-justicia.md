@@ -3,6 +3,7 @@ title: "El poder y la justicia"
 titulo_md: "*El poder y la justicia*"
 autor: "Gehard Cartay Ramírez"
 enlace: https://www.elnacional.com/papel-literario/2026/11/el-poder-y-la-justicia/
+alt: /en/papel-literario-2026/el-poder-y-la-justicia/
 orden: 19
 pagina: "11"
 entradilla: "Reflexiones de Rafael Tomás Caldera para jóvenes políticos."

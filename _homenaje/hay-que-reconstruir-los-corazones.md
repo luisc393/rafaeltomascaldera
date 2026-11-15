@@ -3,6 +3,7 @@ title: "“Hay que reconstruir los corazones”"
 autor: "Cenovia Casas"
 tipo: "Entrevista"
 enlace: https://www.elnacional.com/papel-literario/2026/11/rafael-tomas-caldera-hay-que-reconstruir-los-corazones/
+alt: /en/papel-literario-2026/hay-que-reconstruir-los-corazones/
 orden: 1
 pagina: "1-3"
 entradilla: "Rafael Tomás Caldera Pietri es abogado, filósofo, doctor en Letras por la Universidad de Friburgo, profesor universitario, ensayista y, en un sentido amplio y vital, un pensador de nuestro tiempo. Individuo de número de la Academia Venezolana de la Lengua, su obra se despliega hacia diversos campos: la cultura y la pedagogía, la escritura y el amor, la religión y el devenir de lo humano."

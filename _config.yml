@@ -18,11 +18,16 @@ collections:
   homenaje:
     output: true
     permalink: /papel-literario-2026/:name/
+  homenaje_en:
+    output: true
+    permalink: /en/papel-literario-2026/:name/
 defaults:
   - scope: { type: libros }
     values: { layout: libro }
   - scope: { type: homenaje }
     values: { layout: homenaje }
+  - scope: { type: homenaje_en }
+    values: { layout: homenaje, lang: en }
   - scope: { path: "" }
     values: { layout: page }
 exclude: [README.md, CLAUDE.md]

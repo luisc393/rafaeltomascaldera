@@ -2,6 +2,7 @@
 title: "Una filosofía de la atención"
 autor: "Sandra Timaure"
 enlace: https://www.elnacional.com/papel-literario/2026/11/una-filosofia-de-la-atencion/
+alt: /en/papel-literario-2026/una-filosofia-de-la-atencion/
 orden: 6
 pagina: "5"
 entradilla: "San Agustín y santo Tomás en la obra de Rafael Tomás Caldera."

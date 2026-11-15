@@ -2,6 +2,7 @@
 title: "Crisis de pueblo"
 autor: "Rafael Tomás Caldera"
 enlace: https://www.elnacional.com/papel-literario/2026/03/crisis-de-pueblo/
+alt: /en/papel-literario-2026/crisis-de-pueblo/
 orden: 21
 pagina: "12"
 entradilla: "Confundimos voto con democracia, procedimientos con virtud, ruptura con progreso. Hoy, reconstruir la libertad exige algo más difícil que cambiar normas: recuperar la razón, la justicia y el bien común como base del Estado."

@@ -2,6 +2,7 @@
 title: "Silencio, presencia y atención ante el ser de las cosas"
 autor: "María de las Nieves Viaña"
 enlace: https://www.elnacional.com/papel-literario/2026/11/silencio-presencia-y-atencion-ante-el-ser-de-las-cosas/
+alt: /en/papel-literario-2026/silencio-presencia-y-atencion-ante-el-ser-de-las-cosas/
 orden: 5
 pagina: "4"
 entradilla: "Un comentario a partir del texto *La primera captación intelectual* de Rafael Tomás Caldera."

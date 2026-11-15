@@ -1,0 +1,10 @@
+# Edición de Papel Literario (El Nacional) dedicada a Rafael Tomás Caldera.
+# Cada texto de _homenaje/ lleva su `enlace:` a elnacional.com (los que no lo tienen
+# no aparecen en la web de El Nacional y enlazan a la sección).
+titulo: "Rafael Tomás Caldera, pensador venezolano"
+fecha: 2026-11-15
+fecha_texto: "domingo 15 de noviembre de 2026"
+director: Nelson Rivera
+enlace: https://www.elnacional.com/papel-literario/
+pdf: /assets/pdf/papel-literario-2026-11-15.pdf
+portada: /assets/img/prensa/papel-literario-2026-11-15.jpg

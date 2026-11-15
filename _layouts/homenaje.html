@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{%- assign ed = site.data.papel_literario -%}
+{%- assign piezas = site.homenaje | sort: "orden" -%}
+<article class="wrap pagina homenaje">
+  <header class="pagina-cab">
+    <p class="antetitulo"><a href="{{ '/papel-literario-2026/' | relative_url }}">Homenaje en Papel Literario</a>{% if page.tipo %} · {{ page.tipo }}{% endif %}</p>
+    <h1>{% if page.titulo_md %}{{ page.titulo_md | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% else %}{{ page.title }}{% endif %}</h1>
+    {% if page.autor %}<p class="homenaje-autor">{% if page.tipo == "Entrevista" %}Por {% endif %}{{ page.autor }}</p>{% endif %}
+    {% if page.entradilla %}<div class="entradilla">{{ page.entradilla | markdownify }}</div>{% endif %}
+  </header>
+  <div class="prosa">
+    {{ content }}
+    {% if page.bio %}<p class="homenaje-bio">{{ page.bio | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
+    <aside class="homenaje-fuente">
+      <p>Publicado en <em>Papel Literario</em>, suplemento cultural de <em>El Nacional</em> (Caracas), {{ ed.fecha_texto }}, en la edición «{{ ed.titulo }}», p. {{ page.pagina }}. Dirección: {{ ed.director }}. Se reproduce con fines de difusión; el texto se ha cotejado con la edición impresa y se han corregido erratas menores.</p>
+      <p><a href="{{ page.enlace | default: ed.enlace }}" rel="noopener" target="_blank">{% if page.enlace %}Leer en el sitio de El Nacional{% else %}Papel Literario en elnacional.com{% endif %}</a> · <a href="{{ ed.pdf | relative_url }}">Descargar la edición en PDF</a></p>
+    </aside>
+    <nav class="homenaje-nav" aria-label="Otros textos del homenaje">
+      {%- for p in piezas -%}
+        {%- if p.url == page.url -%}
+          {%- assign i = forloop.index0 -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign ant = i | minus: 1 -%}{%- assign sig = i | plus: 1 -%}
+      {% if i > 0 %}<a href="{{ piezas[ant].url | relative_url }}">← {{ piezas[ant].title }}</a>{% else %}<span></span>{% endif %}
+      {% if sig < piezas.size %}<a href="{{ piezas[sig].url | relative_url }}">{{ piezas[sig].title }} →</a>{% endif %}
+    </nav>
+    <p><a class="volver" href="{{ '/papel-literario-2026/' | relative_url }}">← Todos los textos del homenaje</a></p>
+  </div>
+</article>

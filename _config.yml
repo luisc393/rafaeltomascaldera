@@ -15,9 +15,14 @@ collections:
     permalink: /libros/:name/
   textos:
     output: false
+  homenaje:
+    output: true
+    permalink: /papel-literario-2026/:name/
 defaults:
   - scope: { type: libros }
     values: { layout: libro }
+  - scope: { type: homenaje }
+    values: { layout: homenaje }
   - scope: { path: "" }
     values: { layout: page }
 exclude: [README.md, CLAUDE.md]

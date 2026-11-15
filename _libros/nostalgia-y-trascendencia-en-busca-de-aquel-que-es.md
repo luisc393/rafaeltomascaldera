@@ -7,7 +7,7 @@ detalles: "ISBN 978-980-18-1851-9 · 93 páginas · 18 × 11 cm · Tapa blanda"
 tema: "Metafísica y conocimiento"
 resumen: "Dos ensayos sobre la espiritualidad del alma humana y el destino trascendente de la persona."
 portada:
-amazon:
+amazon: https://www.amazon.com/dp/B0HRMKK8J9
 editor: true
 ---
 

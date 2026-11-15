@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% seo %}
+  {% if page.title_tag %}<title>{{ page.title_tag }}</title>
+  {% seo title=false %}{% else %}{% seo %}{% endif %}
   {% feed_meta %}
   {% if page.alt %}<link rel="alternate" hreflang="{% if page.lang == 'en' %}es{% else %}en{% endif %}" href="{{ page.alt | absolute_url }}">{% endif %}
   <meta name="theme-color" content="#1d2a3a">

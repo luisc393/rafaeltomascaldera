@@ -22,9 +22,14 @@ entradilla: Catálogo de sus libros, del más reciente al más antiguo. Cada fic
   </a>
   {% endfor %}
 </div>
+<h2>Dónde comprar</h2>
+<ul class="donde-comprar">
+  {% for l in todos %}{% if l.amazon or site.editorial.url and l.editor %}<li><a href="{{ l.url | relative_url }}"><em>{{ l.title }}</em></a>{% if l.amazon %} · <a href="{{ l.amazon }}" rel="noopener" target="_blank">Amazon</a>{% endif %}{% if l.editor and site.editorial.url %} · <a href="{{ l.editor_url | default: site.editorial.url }}" rel="noopener" target="_blank">Venta en Venezuela</a> ({{ site.editorial.nombre }}){% endif %}</li>{% endif %}
+  {% endfor %}
+</ul>
 <h2>Traducciones</h2>
 <ul>
-  <li>Étienne Gilson, <em>El amor a la sabiduría</em> (Madrid, Rialp, 2015). Traducción de Rafael Tomás Caldera. Reúne un discurso en Harvard sobre el oficio intelectual y una conferencia en la Universidad Marquette.</li>
+  <li>Étienne Gilson, <em>El amor a la sabiduría</em> (Madrid, Rialp, 2015). Traducción de Rafael Tomás Caldera. Reúne un discurso en Harvard sobre el oficio intelectual y una conferencia en la Universidad Marquette. <a href="https://www.amazon.com/dp/8432145130" rel="noopener" target="_blank">Amazon</a></li>
 </ul>
 <h2>Obras de Rafael Caldera preparadas por él</h2>
 <ul>

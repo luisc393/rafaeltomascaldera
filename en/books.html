@@ -18,7 +18,12 @@ entradilla: His books, most recent first. Most are written in Spanish; the Engli
   </a>
   {% endfor %}
 </div>
+<h2>Where to buy</h2>
+<ul class="donde-comprar">
+  {% for l in todos %}{% if l.amazon or site.editorial.url and l.editor %}<li><a href="{{ l.url | relative_url }}" hreflang="es"><em>{{ l.title }}</em></a> [{{ l.titulo_en }}]{% if l.amazon %} · <a href="{{ l.amazon }}" rel="noopener" target="_blank">Amazon</a>{% endif %}{% if l.editor and site.editorial.url %} · <a href="{{ l.editor_url | default: site.editorial.url }}" rel="noopener" target="_blank">Sales in Venezuela</a> ({{ site.editorial.nombre }}){% endif %}</li>{% endif %}
+  {% endfor %}
+</ul>
 <h2>Translations</h2>
 <ul>
-  <li>Étienne Gilson, <em>El amor a la sabiduría</em> [The Love of Wisdom] (Madrid, Rialp, 2015). Spanish translation by Rafael Tomás Caldera.</li>
+  <li>Étienne Gilson, <em>El amor a la sabiduría</em> [The Love of Wisdom] (Madrid, Rialp, 2015). Spanish translation by Rafael Tomás Caldera. <a href="https://www.amazon.com/dp/8432145130" rel="noopener" target="_blank">Amazon</a></li>
 </ul>

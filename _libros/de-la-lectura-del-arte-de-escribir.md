@@ -6,6 +6,7 @@ ediciones: "Caracas, 1983 (numerosas reimpresiones); Madrid, Rialp, 2021"
 tema: "Lectura y escritura"
 resumen: "Consejos sobre la lectura y la escritura pensados para estudiantes universitarios."
 portada:
+amazon: https://www.amazon.com/dp/8432154075
 ---
 
 Consejos sobre la lectura y la escritura pensados para estudiantes universitarios.

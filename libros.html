@@ -24,7 +24,7 @@ entradilla: Catálogo de sus libros, del más reciente al más antiguo. Cada fic
 </div>
 <h2>Dónde comprar</h2>
 <ul class="donde-comprar">
-  {% for l in todos %}{% if l.amazon or site.editorial.url and l.editor %}<li><a href="{{ l.url | relative_url }}"><em>{{ l.title }}</em></a>{% if l.amazon %} · <a href="{{ l.amazon }}" rel="noopener" target="_blank">Amazon</a>{% endif %}{% if l.editor and site.editorial.url %} · <a href="{{ l.editor_url | default: site.editorial.url }}" rel="noopener" target="_blank">Venta en Venezuela</a> ({{ site.editorial.nombre }}){% endif %}</li>{% endif %}
+  {% for l in todos %}{% if l.amazon or l.rialp or site.editorial.url and l.editor %}<li><a href="{{ l.url | relative_url }}"><em>{{ l.title }}</em></a>{% if l.amazon %} · <a href="{{ l.amazon }}" rel="noopener" target="_blank">Amazon</a>{% endif %}{% if l.rialp %} · <a href="{{ l.rialp }}" rel="noopener" target="_blank">Ediciones Rialp</a>{% endif %}{% if l.editor and site.editorial.url %} · <a href="{{ l.editor_url | default: site.editorial.url }}" rel="noopener" target="_blank">Venta en Venezuela</a> ({{ site.editorial.nombre }}){% endif %}</li>{% endif %}
   {% endfor %}
 </ul>
 <h2>Traducciones</h2>
